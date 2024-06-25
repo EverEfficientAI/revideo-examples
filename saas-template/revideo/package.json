@@ -6,7 +6,8 @@
 		"start": "vite",
 		"serve": "vite",
 		"build": "tsc && vite build",
-		"render": "tsc && node dist/render.js"
+		"render": "tsc && node dist/render.js",
+		"postinstall": "npx puppeteer browsers install chrome"
 	},
 	"dependencies": {
 		"@revideo/core": "0.4.4",
